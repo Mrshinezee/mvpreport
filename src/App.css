@@ -84,6 +84,11 @@
   justify-content: space-between;
   align-items: center;
 }
+.center-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 .between {
   display: flex;
   justify-content: space-between;

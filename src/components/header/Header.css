@@ -1,0 +1,23 @@
+.header {
+  padding-right: 100px;
+  padding-left: 35px;
+  font-family: Roboto;
+}
+.avatar {
+  width: 43px;
+  height: 43px;
+  background: #f6ca65;
+  border-radius: 5px;
+  margin-right: 11px;
+  display: grid;
+  place-items: center;
+}
+.avatar-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+}
+.logo {
+  margin-right: 30px;
+}

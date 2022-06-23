@@ -1,5 +1,6 @@
 import Header from './components/header/Header';
 import SideNav from './components/sideNav/SideNav';
+import ContentPage from './pages/ContentPage';
 
 import './App.css';
 
@@ -10,7 +11,7 @@ function App() {
         <Header />
         <div className="App-body">
           <SideNav />
-          <div className="content" />
+          <ContentPage />
           <div className="sideNav" />
         </div>
         <div className="footer start">

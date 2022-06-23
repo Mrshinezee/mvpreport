@@ -1,13 +1,13 @@
 /* eslint-disable global-require */
-import { ReactComponent as REPORT_EMPTY_STATE } from "../svgs/empty_state.svg";
-import { ReactComponent as LOGO } from "../svgs/logo.svg";
-import { ReactComponent as LOGOUT } from "../svgs/logout.svg";
-import { ReactComponent as MENU } from "../svgs/menu.svg";
-import { ReactComponent as MONITOR } from "../svgs/monitor.svg";
-import { ReactComponent as PIE } from "../svgs/pie.svg";
-import { ReactComponent as GRAPH } from "../svgs/graph.svg";
-import { ReactComponent as CROSS } from "../svgs/cross.svg";
-import { ReactComponent as ARROW_DOWN } from "../svgs/arrow_down.svg";
+import { ReactComponent as REPORT_EMPTY_STATE } from './empty_state.svg';
+import { ReactComponent as LOGO } from './logo.svg';
+import { ReactComponent as LOGOUT } from './logout.svg';
+import { ReactComponent as MENU } from './menu.svg';
+import { ReactComponent as MONITOR } from './monitor.svg';
+import { ReactComponent as PIE } from './pie.svg';
+import { ReactComponent as GRAPH } from './graph.svg';
+import { ReactComponent as CROSS } from './cross.svg';
+import { ReactComponent as ARROW_DOWN } from './arrow_down.svg';
 
 const svgs = {
   LOGO,
@@ -18,7 +18,7 @@ const svgs = {
   PIE,
   GRAPH,
   CROSS,
-  ARROW_DOWN
+  ARROW_DOWN,
 };
 
 export { svgs };

@@ -43,6 +43,7 @@
   color: #ffffff;
   padding: 8px 14px;
   margin-left: 23px;
+  border: none;
 }
 .deep-blue {
   background: #005b96;
@@ -56,6 +57,7 @@
   color: #ffffff;
   padding: 8px 14px;
   margin-left: 23px;
+  border: none;
 }
 .pill-blue {
   color: #f1fafe;
@@ -86,7 +88,7 @@
 }
 .center-start {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .between {

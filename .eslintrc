@@ -10,8 +10,7 @@
     "react-app",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:prettier/recommended",
-    "prettier/react"
+    "plugin:prettier/recommended"
   ],
   "settings": {
     "import/resolver": {
@@ -24,7 +23,7 @@
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -38,6 +37,8 @@
     "no-param-reassign": "error",
     "curly": ["error", "multi-line"],
     "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/function-component-definition": "off",
     "react/jsx-fragments": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-unresolved": [
